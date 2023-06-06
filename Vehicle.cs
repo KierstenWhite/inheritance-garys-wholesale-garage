@@ -23,9 +23,11 @@ namespace Garage
 {
     public class Vehicle
     {
+        public double FuelCapacity { get; set; }
         public string MainColor { get; set; }
         public int MaximumOccupancy { get; set; }
 
+        //Create a Drive() method in the Vehicle class.
         public virtual void Drive() //To have each vehicle make its own sound, you need to do two things. 1) Define the Drive() method as virtual.
         {
             Console.WriteLine("Vrooom!");
