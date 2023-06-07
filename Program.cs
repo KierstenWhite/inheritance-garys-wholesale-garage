@@ -40,9 +40,20 @@ namespace Garage
             cessna1.MaximumOccupancy = 234;
 
             cessna1.Drive();
+            cessna1.Turn("");
+            cessna1.Stop();
+            Console.WriteLine("");
             ram1.Drive();
+            ram1.Turn("");
+            ram1.Stop();
+            Console.WriteLine("");
             tesla1.Drive();
+            tesla1.Turn("");
+            tesla1.Stop();
+            Console.WriteLine("");
             zero1.Drive();
+            zero1.Turn("");
+            zero1.Stop();
 
         }
     }
